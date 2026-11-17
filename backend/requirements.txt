@@ -1,0 +1,20 @@
+# Core API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.7
+pydantic-settings>=2.3
+sqlalchemy>=2.0
+PyJWT>=2.8
+# AI orchestration
+langchain-core>=0.3
+langchain-openai>=0.2
+langchain-text-splitters>=0.3
+langgraph>=0.2
+# Vector store
+chromadb>=0.5
+# Audio probing / decoding (also pulled in by faster-whisper)
+av>=12
+numpy>=1.26
+# Export
+reportlab>=4.0

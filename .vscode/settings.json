@@ -1,0 +1,2 @@
+{ "python.testing.pytestArgs": ["backend"], "python.testing.pytestEnabled": true,
+  "python.analysis.extraPaths": ["backend", "frontend"], "files.exclude": { "**/__pycache__": true } }

@@ -1,0 +1,26 @@
+{
+  "meetings": [
+    {
+      "title": "Sprint planning",
+      "segments": [
+        {"speaker": "Anita", "text": "Welcome everyone. The goal of this meeting is to plan the next sprint for the analytics dashboard."},
+        {"speaker": "Ravi", "text": "The data pipeline is behind schedule because the warehouse credentials were delayed."},
+        {"speaker": "Anita", "text": "We have decided to postpone the export feature to the following sprint."},
+        {"speaker": "Ravi", "text": "I will fix the ingestion script by Thursday."},
+        {"speaker": "Meera", "text": "I'll prepare the chart mockups and share them by next Monday."},
+        {"speaker": "Anita", "text": "We will use PostgreSQL for the reporting database instead of SQLite."},
+        {"speaker": "Meera", "text": "Who will handle the user acceptance testing is still undecided."}
+      ],
+      "gold": {
+        "decisions": ["postpone the export feature to the following sprint", "use PostgreSQL for the reporting database"],
+        "action_items": ["fix the ingestion script by Thursday", "prepare the chart mockups and share them by next Monday"],
+        "risks": ["data pipeline is behind schedule because warehouse credentials were delayed", "who will handle user acceptance testing is undecided"]
+      },
+      "questions": [
+        {"question": "What happened to the export feature?", "relevant_refs": ["seg-0003"], "expect_found": true},
+        {"question": "Which database will be used for reporting?", "relevant_refs": ["seg-0006"], "expect_found": true},
+        {"question": "What is the cafeteria menu for Friday?", "relevant_refs": [], "expect_found": false}
+      ]
+    }
+  ]
+}

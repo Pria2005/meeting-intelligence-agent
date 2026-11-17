@@ -1,0 +1,14 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/*
+!data/.keep
+*.db
+*.wav
+*.mp3
+*.m4a
+.DS_Store
+.idea/

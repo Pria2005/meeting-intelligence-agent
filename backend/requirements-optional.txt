@@ -1,0 +1,2 @@
+# Optional speaker diarization (needs a Hugging Face token and accepting the pyannote model terms)
+pyannote.audio>=3.1
