@@ -103,7 +103,7 @@ class Settings(BaseSettings):
         if self.database_url is None:
             self.database_url = f"sqlite:///{(self.data_dir / 'meetings.db').as_posix()}"
         if self.rag_min_score is None:
-            self.rag_min_score = 0.30 if self.embedding_backend.startswith("sentence") else 0.12
+            self.rag_min_score = 0.12
         self.allowed_extensions = [e.lower() if e.startswith(".") else f".{e.lower()}" for e in self.allowed_extensions]
         return self
 
