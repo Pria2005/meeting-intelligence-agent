@@ -2,7 +2,12 @@
 
 Turn meeting recordings into **searchable, structured, evidence-linked knowledge** — transcript, summary, decisions,
 action items, risks, and a RAG chatbot that answers only from what was actually said.
+## Screenshots
 
+![Dashboard](docs/screenshots/dashboard.png)
+![Meeting results](docs/screenshots/meeting-results.png)
+![Chat with evidence](docs/screenshots/chat.png)
+![System status](docs/screenshots/system.png)
 Built from the PRD v1.0: **FastAPI · Streamlit · Faster-Whisper · LangChain · LangGraph · ChromaDB · SQLAlchemy (SQLite → PostgreSQL)**.
 
 ```
