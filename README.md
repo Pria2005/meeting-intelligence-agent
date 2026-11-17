@@ -2,6 +2,9 @@
 
 Turn meeting recordings into **searchable, structured, evidence-linked knowledge** — transcript, summary, decisions,
 action items, risks, and a RAG chatbot that answers only from what was actually said.
+**Tech:** FastAPI · Streamlit · LangGraph · Faster-Whisper · ChromaDB (RAG) · SQLAlchemy · sentence-transformers
+
+**Run locally:** see [Setup](#setup) below, or run `python run.py` after installing the requirements.
 ## Screenshots
 
 ![Dashboard](docs/screenshots/dashboard.png)
