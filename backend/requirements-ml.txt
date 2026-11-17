@@ -1,4 +1,5 @@
 # Heavy ML dependencies (speech-to-text + semantic embeddings). Install on top of requirements.txt:
 #   pip install -r requirements-ml.txt
 faster-whisper>=1.0
+av>=14,<17
 sentence-transformers>=3.0
